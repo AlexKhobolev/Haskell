@@ -1,6 +1,5 @@
 --1. Реализовать на языке Haskell функцию вычисления суммы элементов списка.
 
-sumList :: [Int] -> Int
 sumList [] = 0
 sumList (x:xs) = x + sumList xs
 
